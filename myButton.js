@@ -3,13 +3,13 @@ import {TouchableOpacity, Text, StyleSheet} from 'react-native';
 
 class MyButton extends Component {
   _onPressButton() {
-    console.log("You tapped the button!");
+    alert("Вы нажали кнопку");
   }
 
   render() {
     return (
       <TouchableOpacity onPress={this._onPressButton} >
-        <Text style={styles.button}>Button</Text>
+        <Text style={styles.button} >Button</Text>
       </TouchableOpacity>
     );
   }

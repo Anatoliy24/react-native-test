@@ -14,6 +14,7 @@ class Form extends React.Component{
   }
 
   render() {
+
     return (
       <View>
         <Text>Заполните поля</Text>
